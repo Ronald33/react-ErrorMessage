@@ -26,7 +26,7 @@ ErrorMessage/
 Copia la carpeta `ErrorMessage` en tu proyecto e impórtala donde la necesites:
 
 ```js
-import { ErrorMessage } from "./ErrorMessage"
+import ErrorMessage from "./ErrorMessage"
 ```
 
 ---
@@ -45,7 +45,7 @@ import { ErrorMessage } from "./ErrorMessage"
 
 ```jsx
 import { useForm } from "react-hook-form"
-import { ErrorMessage } from "./ErrorMessage"
+import ErrorMessage from "./ErrorMessage"
 
 const CategoriaForm = () =>
 {
@@ -86,7 +86,7 @@ Reemplaza el componente por defecto en toda la app. Ideal para definir un diseñ
 
 ```js
 // config.js
-import { ErrorMessage } from "./ErrorMessage"
+import ErrorMessage from "./ErrorMessage"
 import MyErrorMessage from "./MyErrorMessage"
 
 ErrorMessage.setComponent(MyErrorMessage)
